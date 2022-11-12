@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DA7ACC30-0B6F-4740-AEB7-FB48BED2DB2E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4F56E40-EDE5-4347-9FDB-87BE645AE2F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CatfactApiLesson/Networking.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getCatFact(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4F56E40-EDE5-4347-9FDB-87BE645AE2F1 - df1059b18c2c87e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CatfactApiLesson.CatFactNetworking.getCatFact(with: (CatfactApiLesson.CatFact) -&gt; Swift.Optional&lt;()&gt;) -&gt; ()"
+                  moduleName = "CatfactApiLesson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolasomelianov/Lessons/CatfactApiLesson/CatfactApiLesson/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "255">
+               </Location>
+               <Location
+                  uuid = "A4F56E40-EDE5-4347-9FDB-87BE645AE2F1 - df1059b18c2c87e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CatfactApiLesson.CatFactNetworking.getCatFact(with: (CatfactApiLesson.CatFact) -&gt; Swift.Optional&lt;()&gt;) -&gt; ()"
+                  moduleName = "CatfactApiLesson"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikolasomelianov/Lessons/CatfactApiLesson/CatfactApiLesson/Networking.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "290">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
