@@ -39,8 +39,3 @@ class CatFactNetworking {
     }
  
 }
-
-struct CatFact: Decodable {
-    let fact: String
-    let length: Int
-}

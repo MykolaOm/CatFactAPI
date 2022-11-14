@@ -14,6 +14,7 @@
 		F2DDA41429205B19006F477C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DDA41329205B19006F477C /* Assets.xcassets */; };
 		F2DDA41729205B19006F477C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DDA41529205B19006F477C /* LaunchScreen.storyboard */; };
 		F2DDA41F29205D6C006F477C /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDA41E29205D6C006F477C /* Networking.swift */; };
+		F2DDA42129224896006F477C /* CatFactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDA42029224895006F477C /* CatFactModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F2DDA41629205B19006F477C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2DDA41829205B19006F477C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2DDA41E29205D6C006F477C /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		F2DDA42029224895006F477C /* CatFactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				F2DDA40A29205B12006F477C /* AppDelegate.swift */,
 				F2DDA40C29205B12006F477C /* SceneDelegate.swift */,
 				F2DDA40E29205B12006F477C /* ViewController.swift */,
+				F2DDA42029224895006F477C /* CatFactModel.swift */,
 				F2DDA41E29205D6C006F477C /* Networking.swift */,
 				F2DDA41029205B12006F477C /* Main.storyboard */,
 				F2DDA41329205B19006F477C /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				F2DDA40B29205B12006F477C /* AppDelegate.swift in Sources */,
 				F2DDA40D29205B12006F477C /* SceneDelegate.swift in Sources */,
 				F2DDA41F29205D6C006F477C /* Networking.swift in Sources */,
+				F2DDA42129224896006F477C /* CatFactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
