@@ -16,10 +16,10 @@ class CatFactNetworking {
         guard let url = catFactURL else { return }
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-        let dataTask = URLSession.shared.dataTask(with: request) { data, response, error in
+        URLSession.shared.dataTask(with: request) { data, response, error in
             //MARK: Response check
-            if let catFactResponse = response {
-                print(catFactResponse)
+            if let _ = response {
+//                print("response is \(value)")
             }
             //MARK: Error check
             if let err = error {
@@ -35,10 +35,9 @@ class CatFactNetworking {
                     print("decode error")
                 }
             }
-        }
-        dataTask.resume()
+        }.resume()
     }
-    
+ 
 }
 
 struct CatFact: Decodable {

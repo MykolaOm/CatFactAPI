@@ -34,10 +34,13 @@ class ViewController: UIViewController {
     }
     
     private func setupViews() {
+        getFactButton.layer.cornerRadius =  getFactButton.bounds.height/2
+        getFactButton.clipsToBounds = true
         getFactButton.setTitle("Start", for: .normal)
         catFactLabel.text = "Tap Start Button\nto get a fact"
         activityIndicatorView.isHidden = true
     }
+    
     private func activityIndicator(isLoading: Bool) {
         self.activityIndicatorView.isHidden = !isLoading
         if isLoading {
